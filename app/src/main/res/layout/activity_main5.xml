@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="আলিবাবাতে কয়েক ভাবে টাকা পেমেন্ট করা যায়। তবে বাংলাদেশ থেকে আপনি আন্তর্জাতিক পেমেন্ট কার্ডে পেমেন্ট করতে পারবেন, এছাড়া এলসি টিটি করেও পেমেন্ট করা যাবে।
+তবে অনেক সাপ্লাইয়ার আপনার কাছ থেকে পেমেন্ট বাবদ বিটকয়েন খুজবে বা ওয়েস্টার্ন ইউনিয়নের কথা বলবে।  এগুলা করতে যাবেন না । কারণ হচ্ছে এভাবে পেমেন্ট করলে প্রোডাক্ট না
+পাওয়ার সম্ভাবনা বেশি থাকে । আপনি যদি এলসি বা টিটির মাধ্যমে পেমেন্ট করেন সেক্ষেত্রে আপনার একটা ডকুমেন্ট থাকবে যে আপনি পেমেন্ট করেছেন যদি এগুলোর বাহিরে পেমেন্ট করেন
+আপনার পেমেন্টের কোন ডকুমেন্টস থাকলো না।
+
+সাপ্লায়ার কে বলতে হবে আপনি আলিবাবার পেমেন্ট করবেন ট্রেড অ্যাসিউরেন্সের মাধ্যমে । সে একটা  ট্রেড অ্যাসিউরেন্স পেমেন্ট লিঙ্ক দিবে। সেই পেমেন্ট লিংকে গেলেই আপনি আপনার আন্তর্জাতিক পেমেন্ট কার্ডে পেমেন্ট করতে পারবেন ।
+আপনি চাইলে টিটির মাধ্যমে পেমেন্ট করতে পারবেন। এলসির মাধ্যমেও পেমেন্ট করতে পারবেন অথবা ডিজিটাল পেমেন্ট সিস্টেমে পেমেন্ট করতে পারবেন ব্যাংক কার্ডের মাধ্যমে ।
+ এলসির মাধ্যমে সাপ্লায়ার কে পেমেন্ট করতে হলে অবশ্যই আপনার আমদানি লাইসেন্স থাকতে হবে এবং আপনার টিন ভ্যাট থাকতে হবে।
+"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="22dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

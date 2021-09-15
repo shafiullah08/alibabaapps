@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="প্রথমে গুগল  প্লে স্টর থেকে alibaba.com লিখে সার্চ  করুন । নিচের ছবির মত একটি আপস আসবে। এবার alibaba এপস ইনস্টল করুন । এবার alibaba এপস ওপেন করুন । প্রথমে
+নিচের পেজের আসবে। এখান থেকে আপনার মন মত অপশন গুলি চালু করে নিন। আপনি যদি বায়ার হন তবে বায়ার অপশন চালু করে নেন। "
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#c0c0c0"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali1"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali2"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali3"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali4"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali5"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali6"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali7"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

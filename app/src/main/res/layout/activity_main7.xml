@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="আমাদের ফেসবুক ঠিকানাঃ fb.com/eibbuybd
+আমাদের ওয়েবসাইটঃ www.eibbuy.com
+"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="22dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

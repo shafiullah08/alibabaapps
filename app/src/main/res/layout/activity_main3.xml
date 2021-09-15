@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="এবার একাউন্ট ওপেন করুন । আলিবাবাতে একাউন্ট খুলতে আপনার একটি ইমেইল আই ডি লাগবে। প্রথমে রেজিস্টার বাটনে ক্লিক করুন। এর পর আপনার দেশ নির্বাচন করুন, আপনার নাম লিখুন, আপনার কোম্পানি
+নাম লিখুন। যদি কোম্পানি না থাকে তবে  none business entity রেডিও বাটন টি ক্লিক করুন। এর পর ইমাইল আর পাসওয়ার্ড দিয়ে নেক্সট বাটনে ক্লিক করুন। তবে আপনি চাইলে আপনার ফেসবুক দিয়েও
+নতুন একাউন্ট ওপেন করতে পারবেন। "
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#c0c0c0"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali8"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali9"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/aliac"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/aliac2"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali10"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali11"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali12"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

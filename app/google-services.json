@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24814090745",
+    "project_id": "alibaba-fdbf5",
+    "storage_bucket": "alibaba-fdbf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24814090745:android:3894d1e27140aac9232528",
+        "android_client_info": {
+          "package_name": "com.sscorporation.alibabaorderproceesingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24814090745-s0r73jfjah2mtpnee0hfr5jlrumbivko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZByLYN_DF02hHNLwKSo3PIeXj27BiWlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24814090745-s0r73jfjah2mtpnee0hfr5jlrumbivko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

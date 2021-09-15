@@ -1,0 +1,2 @@
+rootProject.name = "alibaba order proceesing app"
+include ':app'

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="একাউন্ট খোলার পর এবারের কাজ হলো পণ্য খুঁজে সাপ্লায়ারের সাথে কথা বলা। প্রথমে আপস থেকে উপরের সার্চ বাটনে ক্লিক করুন। এখানে আপনার কাংখিত পণ্যটির নাম লিখে সার্চ করুন। এবার দেখবেন
+অনেক সাপ্লায়ারের ঠিকানা চলে আসছে। অনেক পণ্যের ছবি থাকবে। যে কোন ছবিতে ক্লিক করুন। এখানে কয়েকটি অপশন দেখবেন নিছে চলে আসছে। এবার চ্যাট বাটনে ক্লিক করুন। এখান থেকে আপনি সরাসরি
+সাপ্লায়ারের সাথে চ্যাট করতে পারবেন। "
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#c0c0c0"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali13"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali14"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali15"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali16"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali17"
+                    android:scaleType="centerInside"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:src="@drawable/ali18"
+                    android:scaleType="centerInside"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
